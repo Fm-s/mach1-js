@@ -17,5 +17,6 @@ if(anos < 2){
         anos -= 2;
         reciclagens++;
     }
+    //Ternario dica do Dimas
     alert(`Vc participou de ${reciclagens > 1 ? reciclagens + " reciclagens" : reciclagens + " reciclagem" }`);
 }
