@@ -17,5 +17,5 @@ if(anos < 2){
         anos -= 2;
         reciclagens++;
     }
-    alert(`Vc participou de ${reciclagens} reciclagens`)
+    alert(`Vc participou de ${reciclagens > 1 ? reciclagens + " reciclagens" : reciclagens + " reciclagem" }`);
 }
