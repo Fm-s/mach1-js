@@ -9,7 +9,7 @@ switch("oi"){
 }
 
 
-let pessoa = prompt("Digite seu nome:").toLowerCase();
+let pessoa = prompt("Digite seu nome:");
 let animal = prompt("Digite seu animal").toLowerCase();
 
 let stringOutput = `Olá ${pessoa}, para o seu ${animal} oferecemos as melhores rações do mercado alem de`
