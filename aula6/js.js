@@ -17,6 +17,7 @@ if(anos < 2){
         anos -= 2;
         reciclagens++;
     }
+    // sem loop Math.trunc(anos/2);
     //Ternario dica do Dimas
     alert(`Vc participou de ${reciclagens > 1 ? reciclagens + " reciclagens" : reciclagens + " reciclagem" }`);
 }
