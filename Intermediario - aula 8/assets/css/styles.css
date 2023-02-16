@@ -1,0 +1,37 @@
+body{
+    min-height: 100vh;
+}
+
+main h2 img {
+    height: 20px;
+    cursor: pointer;
+    margin-left: 3px;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+footer div {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-left: 20px;
+}
+
+footer img {
+    height: 30px;
+}
+
+span.highLight {
+    cursor: pointer;
+    color: #000;
+    background-color: #ffffcc;
+    font-weight: 600;
+}
+
+p.description{
+    color: blue;
+}
